@@ -46,6 +46,15 @@
     <Compile Include="Commands\Base\RelayCommand.cs" />
     <Compile Include="Commands\Base\RelayCommandT.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\NavigationServices\CloseModalNavigationService.cs" />
+    <Compile Include="Services\NavigationServices\CompositeNavigationService.cs" />
+    <Compile Include="Services\NavigationServices\INavigationService.cs" />
+    <Compile Include="Services\NavigationServices\IParamNavigationService.cs" />
+    <Compile Include="Services\NavigationServices\ModalNavigationService.cs" />
+    <Compile Include="Services\NavigationServices\NavigationService.cs" />
+    <Compile Include="Services\NavigationServices\ParameterNavigationService.cs" />
+    <Compile Include="Stores\ModalNavigationStore.cs" />
+    <Compile Include="Stores\NavigationStore.cs" />
     <Compile Include="ViewModels\Base\ViewModelBase.cs" />
   </ItemGroup>
   <ItemGroup />
